@@ -76,10 +76,10 @@ public class InterpretDrawingFile {
 			if (in.nextBoolean())
 			{
 				double x1 = in.nextDouble();
-				double x2 = in.nextDouble();
-				double x3 = in.nextDouble();
 				double y1 = in.nextDouble();
+				double x2 = in.nextDouble();
 				double y2 = in.nextDouble();
+				double x3 = in.nextDouble();
 				double y3 = in.nextDouble();
 				double[] x = new double[3];
 				double[] y = new double[3];
